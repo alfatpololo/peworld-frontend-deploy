@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'openSans', sans-serif;
+}
+
+.navbar-fixed {
+  @apply fixed z-[9999] bg-white bg-opacity-80;
+  backdrop-filter: blur(5px);
+  box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.2);
+}
+
+.hamburger-line {
+  @apply w-[30px] h-[2px] my-2 block bg-slate-600;
+}
+
+.hamburger-active > span:nth-child(1) {
+  @apply rotate-45;
+}
+.hamburger-active > span:nth-child(2) {
+  @apply scale-0;
+}
+.hamburger-active > span:nth-child(3) {
+  @apply -rotate-45;
+}
+
+
+.container-tabs {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  /* background: #f1f1f1; */
+  margin: 100px auto 0;
+  word-break: break-all;
+  /* border: 1px solid rgba(0, 0, 0, 0.274); */
+}
+
+.bloc-tabs {
+  display: flex;
+}
+
+.tabs {
+
+  padding: 15px;
+  text-align: center;
+  width: 20%;
+  /* background: rgba(128, 128, 128, 0.075); */
+  cursor: pointer;
+  /* border-bottom: 1px solid rgba(0, 0, 0, 0.274); */
+  box-sizing: content-box;
+  position: relative;
+  outline: none;
+}
+
+.tabs:not(:last-child){
+  /* border-right: 1px solid rgba(0, 0, 0, 0.274); */
+}
+
+.active-tabs  {
+  background: white;
+  border-bottom: 1px solid transparent;
+}
+
+.active-tabs::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(50% + 2px);
+  height: 5px;
+  background: #5E50A1;
+}
+
+
+
+.bloc-tabs button {
+  border: none;
+  
+}
+.content-tabs {
+  flex-grow : 1;
+}
+.content {
+  background: white;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.content h2 {
+  padding: 0px 0 5px 0px;
+}
+.content hr {
+  width: 100px;
+  height: 2px;
+  background: #222;
+  margin-bottom: 5px;
+}
+.content p {
+  width: 100%;
+  height: 100%;
+}
+.active-content {
+  display: block;
+}
