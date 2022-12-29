@@ -1,34 +1,183 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Peworld (Frontend)
 
+<!-- Logo -->
+<div align="center">
+<img src="./documentation/logo.svg" align="center" width="200" height="auto" />
+</div>
+
+<!-- Table of Contents -->
+## Table of Contents
+
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#requirements">Requirements</a></li>
+        <li><a href="#installation">Installation</a></li>
+        <li><a href="#setup-env-example">Setup .env example</a></li>
+      </ul>
+    </li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#screenshoots">Screenshoots</a></li>
+    <li><a href="#related-project">Related Projects</a></li>
+  </ol>
+</details>
+
+<!-- About The Project -->
+## About The Project
+Peworld is a LinkedIn-like web application where job seekers and recruiters meet.
+In Peworld, as a job seeker you just have to make an account and display your previous portfolios and/or job experiences in your profile. While the recruiter will be able to look after each job seeker’s profile and send a job/project offering to those in their favor.
+
+### Built With
+This app was built with some technologies below:
+- [JavaScript](https://www.javascript.com/)
+- [Node.js](https://nodejs.org/en/)
+- [Next.js](https://nextjs.org/)
+- [Bootstrap](https://getbootstrap.com/)
+- [Axios](https://axios-http.com/)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- Getting Started -->
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
+This is an example of how to list things you need to use the software and how to install them.
+
+* [Node.js](https://nodejs.org/en/download/)
+* [Next.js](https://nextjs.org/learn/basics/create-nextjs-app)
+
+### Installation
+
+- Clone the repository
+```
+git clone https://github.com/brndnwjy/peworld-app
+```
+- Go to repository folder
+```
+cd peworld-app
+```
+- Install Module
+```
+npm install / npm i
+```
+- Connect with database
+- <a href="#setup-env-example">Setup .env</a>
+- Type ` npm run dev` To Start Development
+- Type ` npm run start` To Start Production
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+### Setup .env example
+
+Create .env file in your root project folder.
+
+```env
+# app
+REACT_APP_API_BACKEND = [API_URL]
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+<!-- Contributing -->
+## Contributing
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-## Learn More
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-To learn more about Next.js, take a look at the following resources:
+<!-- Screenshoots -->
+## Screenshoots
+<table>
+  <tr>
+    <td><image src="./documentation/register-w.jpeg" alt="Register - Worker" width=100% ></td>
+    <td><image src="./documentation/login-w.jpeg" alt="Login - Worker" width=100%/></td>
+  </tr>
+  <tr>
+    <td align="center">Register (Worker)</td>
+    <td align="center">Login (Worker)</td>
+  </tr>
+  
+  <tr>
+    <td><image src="./documentation/register-r.jpeg" alt="Register - Recruiter" width=100% ></td>
+    <td><image src="./documentation/login-r.jpeg" alt="Login - Recruiter" width=100%/></td>
+  </tr>
+  <tr>
+    <td align="center">Register (Recruiter)</td>
+    <td align="center">Login (Recruiter)</td>
+  </tr>
+  
+  <tr>
+    <td><image src="./documentation/profile-detail-w.jpeg" alt="Profile - Worker" width=100%></td>
+    <td><image src="./documentation/profile-edit-w.jpeg" alt="Profile Edit - Worker" width=100%></td>
+  </tr>
+  <tr>
+      <td align="center">Profile Detail (Worker)</td>
+      <td align="center">Profile Edit (Worker)</td>
+  </tr>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+  <tr>
+    <td><image src="./documentation/profile-exp-w.jpeg" alt="Profile Exp - Worker" width=100%></td>
+    <td><image src="./documentation/profile-porto-w.jpeg" alt="Profile Porto - Worker" width=100%/></td>
+  </tr>
+   <tr>
+    <td align="center">Profile Edit - Experience Sect. (Worker)</td>
+    <td align="center">Profile Portfolio - Experience Sect. (Worker)</td>
+  </tr>
+  
+  <tr>
+    <td><image src="./documentation/profile-detail-r.jpeg" alt="Profile - Recruiter" width=100%></td>
+    <td><image src="./documentation/profile-edit-r.jpeg" alt="Recipe - Delete" width=100%></td>
+  </tr>
+  <tr>
+      <td align="center">Profile Detail (Recruiter)</td>
+       <td align="center">Profile Edit (Recruiter)</td>
+  </tr>
+  
+  <tr>
+    <td><image src="./documentation/home-r.jpeg" alt="Homepage" width=100%></td>
+    <td><image src="./documentation/home-search-r.jpeg" alt="Homepage - Search result" width=100%></td>
+  </tr>
+  <tr>
+      <td align="center">Homepage (Recruiter)</td>
+     <td align="center">Homepage - Search Result (Recruiter)</td>
+  </tr>
+  
+  <tr>
+    <td><image src="./documentation/talent-detail-r.jpeg" alt="Talent Detail" width=100%></td>
+    <td><image src="./documentation/hiring.jpeg" alt="Hiring Page" width=100%></td>    
+  </tr>
+  <tr>
+     <td align="center">Talent Detail (Recruiter)</td>
+     <td align="center">Hiring Page (Recruiter)</td>
+  </tr>
+</table>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<!-- Related Projects -->
+## Related Project
+:rocket: [`Peworld (Backend)`](https://github.com/brndnwjy/peworld-api)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<!-- :rocket: [`Mamarecipe Web Service`](https://dove-chat.herokuapp.com/) -->
+
+:rocket: [`Peworld App Demo`](https://peworld-app.vercel.app)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
