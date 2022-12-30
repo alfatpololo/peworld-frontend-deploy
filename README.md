@@ -34,8 +34,7 @@
 
 <!-- About The Project -->
 ## About The Project
-Peworld is a LinkedIn-like web application where job seekers and recruiters meet.
-In Peworld, as a job seeker you just have to make an account and display your previous portfolios and/or job experiences in your profile. While the recruiter will be able to look after each job seeker’s profile and send a job/project offering to those in their favor.
+Peworld is an application portal that provides an easy way to find jobs and keep records of your experience, skills, education, and portfolio. On the other side, employers can post their vacancies on this app and invite interested candidates for interviews. All users can see the whole process through a detailed job description. This app was built using NextJs.
 
 ### Built With
 This app was built with some technologies below:
