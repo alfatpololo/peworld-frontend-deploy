@@ -60,7 +60,7 @@ This is an example of how to list things you need to use the software and how to
 
 - Clone the repository
 ```
-git clone https://github.com/brndnwjy/peworld-app
+gh repo clone alfatpololo/peworld-frontend-deploy
 ```
 - Go to repository folder
 ```
@@ -173,10 +173,10 @@ Contributions are what make the open source community such an amazing place to b
 
 <!-- Related Projects -->
 ## Related Project
-:rocket: [`Peworld (Backend)`](https://github.com/brndnwjy/peworld-api)
+:rocket: [`Peworld (Backend)`](https://github.com/alfatpololo/peworld-backend-deploy)
 
 <!-- :rocket: [`Mamarecipe Web Service`](https://dove-chat.herokuapp.com/) -->
 
-:rocket: [`Peworld App Demo`](https://peworld-app.vercel.app)
+:rocket: [`Peworld App Demo`](https://peworld-frontend-deploy.vercel.app/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
