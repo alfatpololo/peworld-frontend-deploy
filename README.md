@@ -34,8 +34,7 @@
 
 <!-- About The Project -->
 ## About The Project
-Peworld is a LinkedIn-like web application where job seekers and recruiters meet.
-In Peworld, as a job seeker you just have to make an account and display your previous portfolios and/or job experiences in your profile. While the recruiter will be able to look after each job seeker’s profile and send a job/project offering to those in their favor.
+Peworld is an application portal that provides an easy way to find jobs and keep records of your experience, skills, education, and portfolio. On the other side, employers can post their vacancies on this app and invite interested candidates for interviews. All users can see the whole process through a detailed job description. This app was built using NextJs.
 
 ### Built With
 This app was built with some technologies below:
@@ -61,7 +60,7 @@ This is an example of how to list things you need to use the software and how to
 
 - Clone the repository
 ```
-git clone https://github.com/brndnwjy/peworld-app
+gh repo clone alfatpololo/peworld-frontend-deploy
 ```
 - Go to repository folder
 ```
@@ -124,26 +123,17 @@ Contributions are what make the open source community such an amazing place to b
   </tr>
   
   <tr>
-    <td><image src="./documentation/profile-detail-w.jpeg" alt="Profile - Worker" width=100%></td>
-    <td><image src="./documentation/profile-edit-w.jpeg" alt="Profile Edit - Worker" width=100%></td>
+    <td><image src="./documentation/profile-w.png" alt="Profile - Worker" width=100%></td>
+    <td><image src="./documentation/profile-edit-w.png" alt="Profile Edit - Worker" width=100%></td>
   </tr>
   <tr>
       <td align="center">Profile Detail (Worker)</td>
       <td align="center">Profile Edit (Worker)</td>
   </tr>
-
-  <tr>
-    <td><image src="./documentation/profile-exp-w.jpeg" alt="Profile Exp - Worker" width=100%></td>
-    <td><image src="./documentation/profile-porto-w.jpeg" alt="Profile Porto - Worker" width=100%/></td>
-  </tr>
-   <tr>
-    <td align="center">Profile Edit - Experience Sect. (Worker)</td>
-    <td align="center">Profile Portfolio - Experience Sect. (Worker)</td>
-  </tr>
   
   <tr>
-    <td><image src="./documentation/profile-detail-r.jpeg" alt="Profile - Recruiter" width=100%></td>
-    <td><image src="./documentation/profile-edit-r.jpeg" alt="Recipe - Delete" width=100%></td>
+    <td><image src="./documentation/profile-r.png" alt="Profile - Recruiter" width=100%></td>
+    <td><image src="./documentation/profile-edit-r.png" alt="Profile Edit - Recruiter" width=100%></td>
   </tr>
   <tr>
       <td align="center">Profile Detail (Recruiter)</td>
@@ -151,21 +141,12 @@ Contributions are what make the open source community such an amazing place to b
   </tr>
   
   <tr>
-    <td><image src="./documentation/home-r.jpeg" alt="Homepage" width=100%></td>
-    <td><image src="./documentation/home-search-r.jpeg" alt="Homepage - Search result" width=100%></td>
+    <td><image src="./documentation/home.png" alt="Homepage" width=100%></td>
+    <td><image src="./documentation/hiring.png" alt="Hiring Page" width=100%></td>  
   </tr>
   <tr>
-      <td align="center">Homepage (Recruiter)</td>
-     <td align="center">Homepage - Search Result (Recruiter)</td>
-  </tr>
-  
-  <tr>
-    <td><image src="./documentation/talent-detail-r.jpeg" alt="Talent Detail" width=100%></td>
-    <td><image src="./documentation/hiring.jpeg" alt="Hiring Page" width=100%></td>    
-  </tr>
-  <tr>
-     <td align="center">Talent Detail (Recruiter)</td>
-     <td align="center">Hiring Page (Recruiter)</td>
+    <td align="center">Homepage (Recruiter)</td>
+    <td align="center">Hiring Page (Recruiter)</td>
   </tr>
 </table>
 
@@ -174,10 +155,10 @@ Contributions are what make the open source community such an amazing place to b
 
 <!-- Related Projects -->
 ## Related Project
-:rocket: [`Peworld (Backend)`](https://github.com/brndnwjy/peworld-api)
+:rocket: [`Peworld (Backend)`](https://github.com/alfatpololo/peworld-backend-deploy)
 
 <!-- :rocket: [`Mamarecipe Web Service`](https://dove-chat.herokuapp.com/) -->
 
-:rocket: [`Peworld App Demo`](https://peworld-app.vercel.app)
+:rocket: [`Peworld App Demo`](https://peworld-frontend-deploy.vercel.app/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
